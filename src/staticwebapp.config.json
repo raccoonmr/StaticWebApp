@@ -1,13 +1,5 @@
   {
-    "routes": [
-        {
-            "route": "/img/*",
-            "headers": {
-                "cache-control": "must-revalidate, max-age=15770000"
-            }
-        }
-    ],
-    "globalHeaders": {
+        "globalHeaders": {
         "cache-control": "must-revalidate, max-age=604800",
     }
 }
